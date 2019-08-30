@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SIACGUB</string>
+    <string name="title_activity_maps">MAPA</string>
+    <string name="title_activity_main2">Home</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="nav_header_title">SIACGUB</string>
+    <string name="nav_header_subtitle">admin@SIACGUB.com</string>
+    <string name="nav_header_desc">Head Nav</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

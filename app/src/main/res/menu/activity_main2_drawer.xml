@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="ACERCA DE" />
+
+    </group>
+
+    <item android:title="Reporte">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tes"
+                    android:title="TESORERIA" />
+                <item
+                    android:id="@+id/nav_ing"
+                    android:title="INGRESOS" />
+                <item
+                    android:id="@+id/nav_obe"
+                    android:title="OBRAS" />
+                <item
+                    android:id="@+id/nav_comp"
+                    android:title="COMPRAS" />
+                <item
+                    android:id="@+id/nav_via"
+                    android:title="VIATICOS" />
+                <item
+                    android:id="@+id/nav_nom"
+                    android:title="NOMINA" />
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_ses"
+        android:title="CERRAR SESION" />
+
+</menu>
